@@ -9,13 +9,17 @@ public class TestPattern {
     public static void main(String[] args) {
         Person person = new Person();
         person.setName("光照");
+        System.out.println("第一种装扮：");
         TShirt tShirt = new TShirt();
         Sneakers sneakers = new Sneakers();
         BigPaints bigPaints = new BigPaints();
+        Kobe9 kobe9 = new Kobe9();
 
         bigPaints.decorate(person);
         sneakers.decorate(bigPaints);
         tShirt.decorate(sneakers);
-        tShirt.show();
+        kobe9.decorate(tShirt);
+
+        kobe9.show();
     }
 }
