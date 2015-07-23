@@ -5,7 +5,8 @@ import java.util.Collections;
 import java.util.List;
 
 /**
- * Created by envy15 on 2015/7/11 0011.
+ * Created by envy15
+ * on 2015/7/11 0011.
  * used by TestJava8
  * scala式的函数接口
  */

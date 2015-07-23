@@ -1,6 +1,7 @@
 package edu.sust.test.buffer;
 
 import java.nio.CharBuffer;
+import java.util.Random;
 
 /**
  * Created by envy15 on 2015/7/14 0014.
@@ -29,6 +30,11 @@ public class BufferTest {
 
     public static void main(String[] args) {
         new BufferTest().test();
+       // System.out.printf("哈哈！%s", 1);
+        Random random=new Random();
+        System.out.println(random.nextInt(3));;
+
+        //System.exit(0);
     }
 }
 
